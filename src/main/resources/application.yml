@@ -1,0 +1,24 @@
+# TRACE|DEBUG|INFO|WARN|ERROR
+logging:
+  level:
+    org.springframework: OFF
+    com.anandchakru.app: OFF
+    org.hibernate.SQL: DEBUG
+    root: DEBUG
+  file: jpa.log
+spring: 
+  main: 
+    banner-mode: "off"
+  datasource: 
+    url: jdbc:mysql://localhost:3306/cifi3?useSSL=false&allowPublicKeyRetrieval=true
+    username: tester
+    password: tester
+  jpa: 
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show_sql: true
+    hibernate:
+      ddl-auto: create-drop
+      format_sql: true
+  data:
+    rest:
+      basePath: /repo
