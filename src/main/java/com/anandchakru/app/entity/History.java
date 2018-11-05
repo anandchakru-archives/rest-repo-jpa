@@ -20,7 +20,7 @@ public class History implements Serializable {
 	@Column(name = "history_id")
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long historyId;
-	@JoinColumn(name = "app_id")
+	@JoinColumn(name = "appId")
 	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REFRESH)
 	private App app;
 	private String version;
