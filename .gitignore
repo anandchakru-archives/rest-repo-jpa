@@ -22,6 +22,7 @@ bin/
 .settings/
 *.sublime-workspace
 *.log
+*.log*.gz
 
 
 # System Files

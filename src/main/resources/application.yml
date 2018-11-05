@@ -14,7 +14,7 @@ spring:
     username: tester
     password: tester
   jpa: 
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     show_sql: true
     hibernate:
       ddl-auto: create-drop
