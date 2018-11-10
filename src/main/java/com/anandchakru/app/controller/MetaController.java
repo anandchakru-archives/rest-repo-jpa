@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MetaController {
 	@GetMapping("/hb")
 	public String hb() {
-		return System.currentTimeMillis() + ": Heatbeat";
+		return System.currentTimeMillis() + ": Heartbeat";
 	}
 }
