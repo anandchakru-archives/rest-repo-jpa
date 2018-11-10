@@ -4,16 +4,17 @@ logging:
     org.springframework: OFF
     com.anandchakru.app: OFF
     org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
     root: DEBUG
   file: jpa.log
-spring: 
-  main: 
+spring:
+  main:
     banner-mode: "off"
-  datasource: 
+  datasource:
     url: jdbc:mysql://localhost:3306/cifi3?useSSL=false&allowPublicKeyRetrieval=true
     username: tester
     password: tester
-  jpa: 
+  jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show_sql: true
     hibernate:
