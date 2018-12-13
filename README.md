@@ -1,5 +1,7 @@
 #Sample JPA with RepositoryRestResource & Mysql v8.x
 
+**Not:** Frozen - use it for reference only
+
 ## Run
 
 * Ensure there is a database cifi3, if not, create it using `mysql> create database cifi3;`
